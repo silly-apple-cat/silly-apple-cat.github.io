@@ -1,0 +1,107 @@
+@font-face { font-family: Pusab; src: url('assets/PUSAB___.otf'); }
+
+body {
+    margin: 0;
+    font-family: Pusab; 
+    -webkit-text-stroke-color: black;
+    color: #ffd900;
+    background-color: rgb(93, 150, 255);
+}
+  
+h1 {
+    -webkit-text-stroke-width: 1px;
+    font-size: 49px;
+    text-align: center;
+    margin: 25px;
+}
+  
+h2 {
+    -webkit-text-stroke-width: 1px;
+    font-size: 40px;
+}
+
+p {
+    -webkit-text-stroke-width: 2px;
+    font-size: 33px;
+}
+
+img {
+    padding: 10px;
+    max-width: 100%
+}
+
+.container {
+    background-color:rgb(59, 127, 253);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 75px;
+}
+
+.container_thin {
+    background-color:rgb(59, 127, 253);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 75px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+ 
+.container_music {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    margin: 25px;
+    margin-left: 250px; 
+    margin-right: 250px;
+}
+  
+.image {
+    flex-basis: 20%
+}
+  
+.text {
+    padding-left: 30px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 25px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #FFB900;
+    color: white;
+}
+
+.image_container {
+    width: 350px;
+    height: 350px;
+}
+
+.image_box {
+    width: 270px;
+    height: 270px;
+    margin: 35px;
+}
+
+.spotify_embed {
+    border-radius: 12px; 
+    padding: 50px;
+}
